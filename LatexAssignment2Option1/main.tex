@@ -1,0 +1,33 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+
+
+\title{LaTex Assignment 2 Option 1}
+\author{Marshall Pangilinan}
+\date{October 2015}
+
+\begin{document}
+
+\maketitle
+\newpage
+\paragraph{The Scenario} There are two cars traveling 50 m/s around the inner lane of a circular racetrack of radius 40 meters. The rear car is 1.0 meters behind the front car. Assume that at least 1.0 meters of distance must be between the cars at all times for safety reasons. The rear car can accelerate from 50 m/s t0 60 m/s in 2 seconds, stay at 60 m/s for 2 seconds, and return to 50 m/s in 2 seconds. Each car is 2.0 meters wide and 5.0 meters long.
+
+\section{The Pass}
+Between the front end of the front car and the rear end of the rear car, there is a total distance of 11 meters and .275 radians. The rear car must travel at least these totals relative to the front car in order to pass. The passing maneuver of the rear car can be split up into three components.
+\subsection{The Radial Change}
+In order for the rear car to pass, it must first increase the radius of its circle of travel by at least 3.0 meters, the width of the car and 1.0 meters of safety. If the rear car remains at 50 m/s for this new radius of 43.0 meters, its angular velocity will decrease from 1.25 rad/s to about 1.16 rad/s and it will lag behind the front car unless it begins to accelerate.
+\subsection{Tangential and Angular Acceleration}
+The rear car must then begin its acceleration of 5 ${m}/{s^2}$ for 2 seconds reaching a final tangential velocity of 60 m/s, which t maintains for another 2 seconds. The angular acceleration will be about .116 rad/${s^2}$ and the rear car will reach a final angular velocity of 1.39 rad/s. During this phase of the passing maneuver the rear car will travel about 230 meters and 5.34 radians. Meanwhile, the front car will travel only 200 meters and 5 radians. The rear car is well enough ahead of the front car and ready to return to the inner lane and to its original velocity.
+\subsection{Finishing the Maneuver}
+The formerly rear car will then return to the inner lane and to its original radius of 40 meters. This transition will cause the car's angular velocity to increase from 1.39 rad/s to 1.5 rad/s. The car will then begin to accelerate at -5 m/${s^2}$ and -.125 rad/${s^2}$ for 2 seconds. After the 2 seconds the car will return to its original tangential velocity of 50 m/s and angular velocity of 1.25 rad/s. During this time, the car will travel an additional 100 meters and 2.5 radians for a total of 300 meters and 7.5 radians. This puts the formerly rear car a whole .09 of a lap in front of the formerly front car, or about 23.44 meters.
+
+\section{The accelerations}
+\subsection{The Tangential and Angular Acceleration}
+The tangential acceleration is the most simple and is stated in the scenario. The rear car can accelerate from 50 m/s to 60 m/s in 2 seconds; a tangential acceleration of 5 m/${s^2}$. It can also accelerate from 60 m/s to 50 m/s in 2 seconds; a tangential acceleration of -5 m/${s^2}$. This acceleration is pivotal to the rear car's ability to surpass the front car as it affects the angular velocity and angular acceleration. Although the rear car may be accelerating and, at some points, traveling at a faster tangential velocity than the front car, the rear car may still be behind the front car because of the increase of the radius of its circle of travel. The angular acceleration is related, and in fact directly proportional, to the tangential acceleration and can be calculated from it. Angular velocity can be described as tangential velocity divided by the radius; subsequently, angular acceleration can be described as tangential acceleration divided by the radius. Therefore, the rear car will accelerate from 1.16 rad/s to 1.39rad/s in 2 seconds; an angular acceleration of .116 rad/${s^2}$. It will also accelerate from 1.5 rad/s to 1.25 rad/s in 2 seconds; an angular acceleration of .125 rad/${s^2}$. The rear car's angular acceleration and velocity is the true determinant of whether or not i can pass the rear car.
+\subsection{The Radial and Coriolis Acceleration}
+The radial acceleration is how the car can travel from one lane to the next. Although the car does increase and decrease its radius by 3 meters, the time it takes to perform this maneuver is unknown. This acceleration does affect the time of the total maneuver, but is ignored in this scenario. The Coriolis acceleration is dependent on the radial velocity and the tangential velocity and illustrates the rear car's need to accelerate as it changes lanes in order to keep up with the front car. Once again, since the radial velocity in unknown, this acceleration must be ignored in this scenario.
+\subsection{The Centripetal Acceleration}
+This acceleration describes what the driver experiences as the rear car changes lanes. The rear car's original centripetal acceleration is 62.5 m/${s^2}$. Once the car changes lanes and increases its radius by 3.0 meters, the new centripetal acceleration is 58.14 m/${s^2}$. Then the car increases its velocity from 50 m/s to 60 m/s and the centripetal acceleration increases proportionally to the square of the time. The centripetal acceleration at 60 m/s in the outer lane is 83.72 m/${s^2}$. Then, as the car returns to the inner lan, the centripetal acceleration increases to 90 m/${s^2}$. Finally, as the car accelerates to its original velocity of 50 m/s, the centripetal acceleration decreases proportionally to the square of the time and returns to its original 62.5 m/${s^2}$.
+
+\end{document}
